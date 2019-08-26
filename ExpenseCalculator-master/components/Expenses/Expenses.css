@@ -1,0 +1,234 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #E5EDF5; */
+    /* overflow: hidden; */
+}
+
+/* login - flex container -parent element */
+#expenses {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/* .main-container {
+    margin-bottom: 20px;
+} */
+
+#period {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    margin: 20px 0 10px 0;
+}
+
+#period h2 {
+    font-size: 16px; 
+    color: #575757;
+    margin-left: 30px;
+}
+
+#period select {
+    height: 35px;
+    width: 150px;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #8D8D8D;
+    background-color: #fff;
+    border: 2px solid #C6C6C6;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#btnmonth, #btnyear  {
+    height: 45px;
+    width: 120px;
+    margin: 0px 0 0 95px;
+    border-radius: 5px;
+    background-color: #1DD1A1;
+    Box-shadow: 
+    0px 0px 16px  rgba(0, 0, 0, 0.17);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btnyear {
+    margin-left: 0px;
+    background-color: #C9E5DD;
+}
+
+#btnmonth, #btnyear:inactive {
+    background-color: #C9E5DD; 
+}
+
+
+
+
+
+#mainnav  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 200px auto 10px;
+    width: 90%;
+    /* position: fixed; */
+}
+
+#mainnav #btproducts {
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #1DD1A1;
+    color: #1DD1A1;
+    border-radius: 5px;
+    background-color: transparent ;
+    margin-left: 30px;
+    margin-right: 10px;
+    height: 40px;
+    width: 110px;
+    outline: none;
+}
+
+#mainnav #btexpenses {
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #576574;
+    color: #576574;
+    border-radius: 5px;
+    background-color: transparent ;
+    height: 40px;
+    width: 110px;
+    outline: none;
+}
+
+#mainnav img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: auto;
+}
+
+#mainnav h2 {
+    font-size: 18px;
+    color: #4D4D4D;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+#mainonebtn {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+#alltable {
+    width: 90%; 
+    background-color: #E5EDF5;
+    margin: auto;
+}
+
+
+#maintitle  {
+    width: 85%;
+    display: flex;
+    /* align-items: center; */
+    padding-top: 25px;
+    margin: auto; 
+}
+
+#maintitle h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#maintitle h2 {
+    font-size: 16px; 
+    margin-left: auto;
+}
+
+#maintitle select {
+    height: 35px;
+    width: 160px;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #8D8D8D;
+    background-color: #fff;
+    border: 2px solid #C6C6C6;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#maintable {
+    width: 85%;
+    border: 0px;
+    border-spacing: 0px 10px;
+    margin: auto;
+}
+
+#maintable thead th {
+    font-size: 16px;
+    color: #404040;
+    padding: 0px 5px 5px 25px;
+    border-bottom: 1px solid #707070;
+    width: 180px;
+    height: 50px;
+    text-align: left;
+
+}
+
+#maintable tbody tr {
+    font-size: 16px;
+    color: #575757;
+    background-color: #fff;
+}
+
+#maintable tbody td {
+    width: 180px;
+    height: 50px;
+    padding: 5px 25px 5px 25px;
+    
+}
+
+/* #maintable tbody td span i {
+    padding-left: 80px;
+    text-align: center;
+} */
+
+
+#saldo  {
+    font-size: 14px;
+    width: 82%;
+    height: 70px;
+    color: #fff;
+    margin-bottom: 25px;
+    background-color: 
+    rgba(83, 83, 83, 0.5);
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+   }
+
+#saldo h2 {
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+#saldo #wh {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+

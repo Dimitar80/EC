@@ -1,0 +1,21 @@
+/*DP21*/
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5EDF5;
+    /* overflow: hidden; */
+}
+
+/* login - flex container -parent element */
+#login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-wrap: wrap;
+    align-content: center;
+}
